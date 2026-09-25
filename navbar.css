@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
+}
+
+.items,a{
+    display: flex;
+    gap: 20px;
+    
+    color:black 
+
+
+}
+
+img{
+    
+    width: 100px;
+}
+
+button{
+    padding: 5px;
+    gap: 20px;
+    border-radius: 5px;
+    color: aqua;
+    background-color: black;
+    border: none;
+    border: 2px solid white;
+}
+
+
+button:hover{
+    color: black;
+    background-color: aqua;
+}
